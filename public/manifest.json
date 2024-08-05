@@ -5,5 +5,20 @@
         "width": 3,
         "height": 3
     },
-    "mapping": []
+    "mapping": [],
+    "collections":[
+        {
+          "name": "create_acc",
+          "schema":{
+            "columns": [
+              { "name": "username", "type": "STRING" },
+              { "name": "password", "type": "STRING" }
+            ]
+          },
+          "syncEnabled":true  
+        }
+    ],
+    "fileName": "manifest.json",
+    "id": "45e39231-226b-45b9-afb5-b6f109ca2b90",
+    "proxyId": "54a7fb42-5278-41bb-88f4-faf91f6ba834"
 }
